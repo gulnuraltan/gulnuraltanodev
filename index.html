@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GÜLNUR ALTAN</title>
+        <style>
+            body{
+                background-color: #999;
+                font-family: sans-serif;
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                font-size: 25px;
+                padding: 5px;
+                color: white;
+            
+            }
+            table{
+                text-align: center;
+            }
+            marquee{
+                padding: 0 100px 0 100px;
+            }
+            a:hover{
+                color:  red;
+            }
+            #education .content a{
+                color: black;
+            }
+            #education .content a:hover{
+                color: red;
+            }
+            li{
+                font-size: 25px;
+                padding: 5px;
+            }
+            span{
+                font-size: 25px;
+                padding: 5px;
+            }
+            #summary{
+                text-align: center;
+                padding: 5%;
+            }
+
+		#photo{
+ 		height: 250px;
+                width: 300px;
+			}	
+		
+            #summary-text{
+                padding-left: 10%;
+                padding-right: 10%;
+                background-color: #555;
+                margin: 10px 10% 0 10%;
+            
+                padding: 10px;
+                border-radius: 5%;
+            }
+            #photo{
+                border-radius: 10%;
+                border: solid 5px black;
+            }
+            .flex{
+                display: flex;
+            
+            }
+            .header{
+                border-radius: 5%;
+                background-color: #555;
+            }
+            .flex .header{
+                width: 30%;
+                height: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px;
+            
+            
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                height: 250px;
+                width: 70%;
+                background-color: #099;
+                border-radius: 5%;
+                justify-content: center;
+                padding-left: 40px;
+                margin: 10px;
+            
+            }
+            #contact{
+                text-align: center;
+            }
+            #contact .header{
+                margin: 10px;
+                margin-bottom: 20px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            #contact .content{
+                display: flex;
+                flex-direction: row;
+                width: auto
+            }
+            #contact .content #instagram, #contact .content #email{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="summary">
+            <!-- Özet -->
+            <img id="photo" src="gulnur.jpg"" alt="" >
+            <div id="summary-text">
+                <marquee behavior="" direction=""><h1>GÜLNUR ALTAN</h1></marquee>
+                <p>
+                    Gülnur ALTAN 2004 yılında Bursa'da doğdu. Ertuğrul Gazi Anadolu Lisesinden mezun oldu. Şu anda Bandırma Onyedi Eylül Üniversitesi Halkla İlişkiler ve Reklamcılık bölümünde 2. sınıfta öğrenim görüyor. Hayali bir şirkette Dijital Pazarlama Uzmanı olarak çalışmak.  
+                </p>
+            </div>
+        </div>
+        <div >
+            <div class="flex" id="education">
+                <!-- Eğitimler -->
+                <div class="header"><h1>EĞİTİMLER</h1></div>
+                <div class="content" style="background-color: rgb(255, 207, 145); color: black;">
+                    <a href="hhttps://begal.meb.k12.tr/""> Ertuğrul Gazi Anadolu Lisesi  </a>
+                    <a href="https://www.bandirma.edu.tr"">BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ </a>
+                </div>
+            </div>
+            <div class="flex"id="language">
+                <!-- Diller -->
+                <div class="content">
+                    <ul>
+                        <li>Türkçe(anadil)</li>
+                        <li>İngilizce(C1)</li>
+                
+                    </ul>
+                </div>
+                <div class="header"><h1>DİLLER</h1></div>
+                <div>
+                </div>
+            </div>
+            <div class="flex" id="goals">
+                <!-- Hedefler -->
+                <div class="header"><h1>SERTİFİKALAR</h1></div>
+                <div class="content" style="background-color: rgb(255, 207, 145); color: black;">
+                    <span>Sosyal Etkinlik ve Eğlence Topluluğu - Girişimcilikte 3M/3N Kuralı Etkinliği Katılım Sertifikası</span>
+                </div>
+            </div>
+            <div id="contact">
+                <!-- İletişim -->
+                <div class="header"><h1>İLETİŞİM</h1></div>
+                <div class="content">
+                    <div id="instagram">
+                        <span>Instagram</span>
+                        <a href="https://www.instagram.com/qulnurr_/">@qulnur</a>
+                    </div>
+                    <div id="email">
+                        <span>E-Mail</span>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">gulnuraltan79@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
